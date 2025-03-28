@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 20px;
+    color: #333;
+}
+
+#equation-container {
+    margin-bottom: 20px;
+}
+
+.equation-input {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+button.remove-button {
+    background-color: #d9534f;
+}
+
+button.remove-button:hover {
+    background-color: #c9302c;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+}
+
+/* 方程显示优化 */
+.equation-row {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-family: "Cambria Math", Symbola, sans-serif;
+}
+
+.variable {
+    color: #2c3e50;
+    font-weight: 700;
+    min-width: 30px;
+    margin-right: 10px;
+}
+
+.equals {
+    color: #7f8c8d;
+    margin: 0 8px;
+}
+
+.expression {
+    color: #27ae60;
+    font-size: 1.1em;
+}
+
+.exponent {
+    font-size: 0.8em;
+    vertical-align: super;
+}
+
+.fraction {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 2px;
+}
+
+.fraction:after {
+    content: '';
+    border-top: 1px solid #666;
+    display: block;
+    margin-top: -1px;
+}
+
+.solution-group h3 {
+    color: #2980b9;
+    font-size: 1.2em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.loading {
+    color: #666;
+    font-style: italic;
+    padding: 10px;
+    border: 1px dashed #ddd;
+}
