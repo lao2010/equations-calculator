@@ -33,9 +33,9 @@ pip install -r requirements.txt
 ## 贡献指南
 欢迎贡献者参与本项目的开发和改进。请遵循以下步骤：
 1. Fork本项目。
-2. 创建您的特性分支（git checkout -b feature/your-feature）。
-3. 提交您的修改（git commit -am 'Add your feature'）。
-4. 将您的修改推送到远程分支（git push origin feature/your-feature）。
-5. 创建一个新的Pull Request。
+2. 创建您的特性分支`git checkout -b feature/your-feature`。
+4. 提交您的修改`git commit -am 'Add your feature'`。
+5. 将您的修改推送到远程分支`git push origin feature/your-feature`。
+6. 创建一个新的`Pull Request`。
 ## 许可证
 本项目使用MIT许可证。
