@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>方程求解器</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <!-- 添加本地MathJax配置 -->
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            chtml: {
+                scale: 1.1  // 调整公式缩放比例
+            }
+        };
+    </script>
+    <script src="/static/mathjax/MathJax-3.2.0/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>方程求解工具</h1>
+        <form id="equations-form">
+            <!-- Equation input fields will be added here dynamically -->
+            <!-- 修改第13行初始输入框 -->
+            <div class="equation-group">
+                <input type="text" name="equation" placeholder="例如: y = x+5" class="equation-input">
+                <button class="remove-btn" disabled>删除</button>
+            </div>
+        </form>
+        <button id="add-equation">添加方程</button>
+        <button id="solve">开始解方程</button>
+        <div id="result"></div>
+        
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
