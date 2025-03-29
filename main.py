@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from sympy import symbols, Eq, solve, sympify, latex  # 添加导入
+from sympy import symbols, Eq, solve, sympify, latex, SympifyError  # 添加导入
 
 app = Flask(__name__)
 
