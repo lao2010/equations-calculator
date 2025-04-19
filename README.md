@@ -8,6 +8,8 @@
 ```bash
 pip install -r requirements.txt
 ```
+## 在线体验
+https://equations.pythonanywhere.com/
 ## 使用说明
 1. 使用Python运行主程序文件（例如：main.py）。
 2. 根据提示输入方程的相关参数。
